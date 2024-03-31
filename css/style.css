@@ -1,0 +1,124 @@
+body {
+    background-color: rgb(244, 246, 248);
+}
+.container {
+    width: 70%;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 30px;
+    height: 600px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.result {
+    text-align: center;
+    padding: 30px;
+    background-color: rgba(5, 5, 204, 0.788);
+    color: #fff;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.result h2 {
+    color: #d3cccc;
+}
+
+.count {
+    background-color: rgba(34, 34, 150, 0.76);
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.count .seven_six {
+    align-items: center;
+    font-size: 100px;
+}
+.count .hundred {
+    color: #aaa;
+    font-size: 20px;
+
+}
+.content {
+    margin: 40px;
+}
+.content h3 {
+    font-size: 30px;
+}
+.content p {
+    color: #aaa;
+    font-size: 20px;
+}
+.summary {
+    padding: 40px;
+}
+.summary h2 {
+    padding-left: 20px;
+}
+.reaction, .memory, .verbal, .visual {
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.reaction {
+    background-color:#fdaca1;
+}
+.reaction .left span {
+    color: red;
+}
+
+.memory .left span {
+    color: orange;
+}
+
+.verbal .left span {
+    color: green;
+}
+
+.visual .left span {
+    color: purple;
+}
+.reaction .right {
+    text-align: right;
+}
+.memory {
+    background-color: #ffe69c;
+}
+.verbal {
+    background-color: #c9f7b6;
+}
+.visual {
+    background-color: #faaefa;
+}
+.btn {
+    width: 100%;
+    border-radius: 50px;
+    background-color: #111;
+    padding: 15px;
+    margin: auto;
+    color: #fff;
+    font-size: 18px;
+    
+}
+
+.summary .left i {
+    padding-right: 10px;
+}
+
+
+@media (min-width: 360px) and (max-width: 700px) {
+    .container {
+        width: 100%;
+        display: block;
+        box-shadow: none;
+        background-color: none;
+    }
+    
+  }
