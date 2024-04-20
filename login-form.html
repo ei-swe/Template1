@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+</head>
+<style>
+    body {
+        width: 100%;
+        margin: auto;
+    }
+    .container {
+        position: relative;
+        height: 100vh;
+        overflow: hidden;
+        /* background-color:#aaa ; */
+    }
+    
+    .login-form {
+        width: 500px;
+        height: 300px;
+        margin: auto;
+        margin-top: 10%;
+        background: linear-gradient(to right bottom, #0000ff 50%, #fff 50%);
+        border-radius: 3px;
+        text-align: center;
+        box-shadow: 0 2px 30px -2px #111;
+    }
+
+    .login-content {
+        padding-top: 20px;
+        color: #fff;
+    }
+
+    .login-form .input-text {
+        display: block;
+        margin: auto;
+        width: 250px;
+        height: 30px;
+        margin-top: 20px;
+
+    }
+
+    .login-form .input-checkbox {
+        display: inline;
+        margin-top: 20px;
+    }
+
+    .btn button {
+        margin: 20px;
+        width: 200px;
+        background-color: blue;
+        color: #fff;
+        border: none;
+        font-size: 16px;
+        border-radius: 5px;
+        padding: 10px;
+    }
+    label {
+        color: #111;
+    }
+    .top {
+        position: absolute;
+        width: 250px;
+        aspect-ratio: 1/1;
+        background-color: aquamarine;
+        filter: blur(50px);
+        border-radius: 50%;
+        top: -100px;
+        left: -5%;
+    }
+
+    .btm {
+        position: absolute;
+        width: 250px;
+        aspect-ratio: 1/1;
+        background-color: aquamarine;
+        filter: blur(50px);
+        border-radius: 50%;
+        bottom: 20%;
+        right: 20%;
+        z-index: -1;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="top"></div>
+        <div class="login-form">
+            <div class="login-content">
+                <h3>Admin Login</h3>
+                <input type="text" name="email" class="input-text" placeholder="Email">
+                <input type="text" name="email" class="input-text" placeholder="Password">
+                <div class="show-password">
+                    <input type="checkbox" name="" id="" class="input-checkbox">
+                    <label for="">Show Password</label>
+                </div>
+                <div class="btn">
+                    <button>Login</button>
+                </div>
+            </div>
+        </div>
+        <div class="btm"></div>
+    </div>
+</body>
+
+</html>
